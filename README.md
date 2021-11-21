@@ -6,7 +6,7 @@ The project consists of a 10 piece traditional Mariachi Band. The artwork
 is composed of 10 digital illustrations depicting the 10 members of the 
 band.
 
-# History
+## History
 
 The band lost their jobs and gigs due to the recent global crisi (2020). Ever 
 since then they had to get side jobs.
