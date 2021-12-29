@@ -1,0 +1,70 @@
+/*Globals*/
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html {
+	scroll-behavior: smooth;
+}
+body {
+	background-color: #f2f2f2;
+	font-family: Determination;
+}
+
+/*Fonts*/
+@font-face {
+	font-family: Determination;
+	src: url(Determination.ttf);
+}
+@font-face {
+	font-family: AAutoSignature;
+	src: url(AAutoSignature.ttf);
+}
+
+/*Mobile Devices*/
+
+@media (max-width: 768px) {
+	#nopal {
+		display: none;
+	}
+	.menu-items {
+		display: none;
+	}
+	.title-container {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: 100vh;
+	}
+	#mariachi-punks-title {
+		max-width: 75%;
+	}
+	.gallery {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		height: 100vh;
+	}
+	.frame {
+		display: flex;
+		justify-content: center;
+	}
+	.mariachi-character {
+		max-width: 75%;
+	}
+	.name-title {
+		display: flex;
+		justify-content: center;
+	}
+	h1 {
+		font-family: AAutoSignature;
+	}
+	.description-container {
+		display: flex;
+		justify-content: center;
+	}
+	.description-text {
+		max-width: 75%;
+	}
+}
